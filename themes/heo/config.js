@@ -4,7 +4,7 @@ const CONFIG = {
 
   HEO_HOME_BANNER_ENABLE: true,
 
-  HEO_SITE_CREATE_TIME: '2021-09-21', // 建站日期，用于计算网站运行的第几天
+  HEO_SITE_CREATE_TIME: '2025-04-14', // 建站日期，用于计算网站运行的第几天
 
   // 首页顶部通知条滚动内容，如不需要可以留空 []
   HEO_NOTICE_BAR: [
@@ -18,11 +18,11 @@ const CONFIG = {
   HEO_HERO_BODY_REVERSE: false,
 
   // 英雄区(首页顶部大卡)
-  HEO_HERO_TITLE_1: '分享编程',
-  HEO_HERO_TITLE_2: '与思维认知',
-  HEO_HERO_TITLE_3: 'TANGLY1024.COM',
+  HEO_HERO_TITLE_1: '站在产品',
+  HEO_HERO_TITLE_2: '与人文的十字路口',
+  HEO_HERO_TITLE_3: 'XingYanAI.INFO',
   HEO_HERO_TITLE_4: '新版上线',
-  HEO_HERO_TITLE_5: 'NotionNext4.0 轻松定制主题',
+  HEO_HERO_TITLE_5: '我的摄影展网站发布啦',
   HEO_HERO_TITLE_LINK: 'https://tangly1024.com',
   // 英雄区遮罩文字
   HEO_HERO_COVER_TITLE: '随便逛逛',
@@ -117,10 +117,27 @@ const CONFIG = {
   ],
 
   HEO_SOCIAL_CARD: true, // 是否显示右侧，点击加入社群按钮
-  HEO_SOCIAL_CARD_TITLE_1: '交流频道',
-  HEO_SOCIAL_CARD_TITLE_2: '加入我们的社群讨论分享',
+  // 公众号卡片配置
+  HEO_SOCIAL_CARD_TITLE_1: '公众号',
+  HEO_SOCIAL_CARD_TAG: '微信',
+  HEO_SOCIAL_CARD_SUBTITLE_1: '快人一步获取最新文章 ▶',
+  HEO_SOCIAL_CARD_URL_1: 'https://docs.tangly1024.com/article/wechat-mp',
+  HEO_SOCIAL_CARD_BG_COLOR_1: '#36B37E',
+  HEO_SOCIAL_CARD_WECHAT_ICON: '/images/wechat.png',
+  HEO_SOCIAL_CARD_PUBLIC_QRCODE: '/qrcode.png', // 公众号二维码图片
+  
+  // 扫一扫卡片配置
+  HEO_SOCIAL_CARD_TITLE_2: '扫一扫',
+  HEO_SOCIAL_CARD_SUBTITLE_2: '不错过精彩文章 ▶',
+  HEO_SOCIAL_CARD_URL_2: 'https://docs.tangly1024.com/article/wechat-mp',
+  HEO_SOCIAL_CARD_BG_COLOR_2: '#36B37E',
+  HEO_SOCIAL_CARD_QRCODE: '/qrcode.png', // 二维码图片地址
+
+  // 以下配置项已不再使用，但保留为了向后兼容
   HEO_SOCIAL_CARD_TITLE_3: '点击加入社群',
   HEO_SOCIAL_CARD_URL: 'https://docs.tangly1024.com/article/how-to-question',
+  HEO_SOCIAL_CARD_BG_COLOR: '#4285f4', // 卡片背景色
+  HEO_SOCIAL_CARD_QRCODE_TEXT: '扫一扫 | 获取最新文章', // 二维码下方的文字
 
   // 底部统计面板文案
   HEO_POST_COUNT_TITLE: '文章数:',
