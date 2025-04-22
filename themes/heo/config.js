@@ -20,10 +20,10 @@ const CONFIG = {
   // 英雄区(首页顶部大卡)
   HEO_HERO_TITLE_1: '站在产品',
   HEO_HERO_TITLE_2: '与人文的十字路口',
-  HEO_HERO_TITLE_3: 'XingYanAI.INFO',
+  HEO_HERO_TITLE_3: 'blog.xingyan.me',
   HEO_HERO_TITLE_4: '新版上线',
   HEO_HERO_TITLE_5: '我的摄影展网站发布啦',
-  HEO_HERO_TITLE_LINK: 'https://tangly1024.com',
+  HEO_HERO_TITLE_LINK: 'https://www.notion.so/1dd64cadd82180c1bbbbf15a87dd8fed?pvs=4',
   // 英雄区遮罩文字
   HEO_HERO_COVER_TITLE: '随便逛逛',
 
@@ -39,13 +39,15 @@ const CONFIG = {
 
   // 右侧个人资料卡牌欢迎语，点击可自动切换
   HEO_INFOCARD_GREETINGS: [
-    '你好！我是',
-    '🔍 分享与热心帮助',
-    '🤝 专修交互与设计',
-    '🏃 脚踏实地行动派',
-    '🏠 智能家居小能手',
-    '🤖️ 数码科技爱好者',
-    '🧱 团队小组发动机'
+    '你好！我是星彦，',
+    '🤖 AI产品探索者',
+    '📷 生活摄影热爱者',
+    '🏠 智能家居实践派',
+    '🚀 行动力满分的执行者',
+    '🧠 逻辑与分析并重',
+    '🗂️ 统筹规划小能手',
+    '🎯 目标专注的成就控',
+    '🔍 持续学习与自我迭代'
   ],
 
   // 个人资料底部按钮
